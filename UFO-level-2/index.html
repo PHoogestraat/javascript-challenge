@@ -24,8 +24,9 @@
     <div class="hero text-center">
       <h1>UFO Sightings</h1>
       <p>The Truth is Out There</p>
-    </div>
-    <div class="container">
+    </div> <!--Beginging of data entry-->
+                                          <!--Date-->
+    <div class="container"><!--Data begins-->
       <div class="row margin-top-50">
         <div class="col-md-2">
           <aside class="filters">
@@ -46,8 +47,8 @@
               </div>
             </div>
           </aside>
-        </div>
-        <div class="col-md-2">  
+        </div>                            <!--State-->
+        <div class="col-md-2">  <!--state begins button 1-->
           <aside class="filters">
             <div class="panel panel-default">
               <div class="panel-heading">Filter State</div>
@@ -67,6 +68,69 @@
             </div>
           </aside>
         </div>
+        <div class="col-md-2">  <!--City begins-->
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter City</div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="city">
+                      </li>
+                    </ul>
+                  </div>
+                  <button id="filter-btn2" type="button" class="btn btn-default">Enter</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-2">  <!--Country begins-->
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Country</div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="Country">Enter a Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
+                      </li>
+                    </ul>
+                  </div>
+                  <button id="filter-btn3" type="button" class="btn btn-default">Enter</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="col-md-2">  <!--Shape begins-->
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Shape</div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="shape">Enter a Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="sphere">
+                      </li>
+                    </ul>
+                  </div>
+                  <button id="filter-btn4" type="button" class="btn btn-default">Enter</button>
+                </form>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+
         <div class="col-md-10">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
