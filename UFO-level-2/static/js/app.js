@@ -6,7 +6,8 @@ var data = data
 // YOUR CODE HERE!
 
 // ##########################################
-// Goal: publish the data to the web page.
+// ##########################################
+// Goal A: publish the data to the web page.
 
 // Get a reference to the table body from HTML
 // tbody is the main data table
@@ -28,7 +29,7 @@ data.forEach(function(et) {
 });
 
 // ##########################################
-// Goal: filter data by date.
+// Goal B: filter data by date.
 
  // Set up Date fileter 
 // Assign the data from `data.js` to a descriptive variable
@@ -82,9 +83,52 @@ function runEnter() {
   })
 };
 /// #######################################
-//  Clear table
-// print table
+/// #######################################
+// ##########################################
+// Goal C: filter data by state.
 
- // First, create an array with just the age values
- 
- // var Dates = filteredData.map(day => day.datetime);
+// Select the button
+var button = d3.select("#filter-btn");
+
+// Create event handlers 
+// Define action when button is clicked
+button.on("click", runEnter);
+
+// Select the form
+var form = d3.select("#form");
+form.on("submit",runEnter);
+
+function runEnter() {
+
+  // Prevent the page from refreshing
+  d3.event.preventDefault();
+  // clears table
+  tbody.selectAll('*').remove();
+  // Select the input element and get the raw HTML node
+  var inputElement = d3.select("#state");
+
+  // Get the value property of the input element
+  var inputValue = inputElement.property("value");
+
+  console.log(inputValue);
+  //console.log(date);
+
+  var filteredData = date.filter(day => day.datetime === inputValue);
+  //var filteredData = state.filter(sta => sta.state === inputValue);
+
+  console.log(filteredData);
+
+  // // Step 4: Use d3 to append 1 cell per weather report value (Date, City, State, Country, Shape, Duration, Comments)
+  filteredData.forEach(function(et) {
+    console.log(et);
+    var row = tbody.append("tr");
+
+      Object.entries(et).forEach(function([key, value]) {
+        console.log(key, value);
+        //Append a cell to the row for each value
+        //in the weather report object
+        var cell = row.append("td");
+        cell.text(value)
+      })
+  })
+};
