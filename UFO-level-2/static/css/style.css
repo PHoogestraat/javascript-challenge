@@ -98,7 +98,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/invasion2.png");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -166,7 +166,7 @@ select {
     height: 1px;
     margin-top: 20px;
     content: " ";
-    background: aliceblue;
+    background: rgb(244, 248, 4);
   }
 
   #table-area td {
