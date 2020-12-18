@@ -111,7 +111,10 @@ function runState() {
   var inputValueS = inputElementS.property("value");
 
   console.log(inputValueS);
-  console.log(state);
+  // correct capitliztion erros inputs
+  var inputValueLowState = inputValueS.toLowerCase();
+  inputValueS = inputValueLowState
+  console.log(inputValueLowState);
 
   
   var filteredState = state.filter(sta => sta.state === inputValueS);
@@ -137,7 +140,7 @@ function runState() {
 /// #######################################
 /// #######################################
 // ##########################################
-// Goal C: filter data by Country.
+// Goal C: filter data by City.
 var city = data;
 // Select the button
 var button = d3.select("#filter-btn2");
@@ -164,7 +167,8 @@ function runCity() {
 
   console.log(inputValueCity);
   //console.log(state);
-
+  var inputValueLowCity = inputValueCity.toLowerCase();
+  inputValueCity = inputValueLowCity
   
   var filteredCity = city.filter(ci => ci.city === inputValueCity);
 
@@ -214,6 +218,9 @@ function runCountry() {
   var inputValueCO = inputElementCO.property("value");
 
   console.log(inputValueCO);
+
+  var contrtCap = inputValueCO.toLowerCase();
+  inputValueCO = contrtCap
   //console.log(state);
 
   
@@ -266,7 +273,8 @@ function runShape() {
 
   console.log(inputValueShape);
   //console.log(state);
-
+  var shapeCap = inputValueShape.toLowerCase();
+  inputValueShape = shapeCap
   
   var filteredShape = shape.filter(sha => sha.shape === inputValueShape);
 
