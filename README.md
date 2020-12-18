@@ -1,3 +1,4 @@
+![invasion.png](figures/invasion.png)
 # JavaScript Homework - JavaScript and DOM Manipulation
 
 ## Background
