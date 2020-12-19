@@ -7,6 +7,35 @@ var data = [{
     durationMinutes: "5 mins.",
     comments: "4 bright green circles high in the sky going in circles then one bright green light at my front door."
   },
+
+  {
+    datetime: "1/1/2010",
+    city: "indianapolis",
+    state: "in",
+    country: "us",
+    shape: "donut",
+    durationMinutes: "13 minutes",
+    comments: "Large creature was sighted banging on doors of a Dunkin Donuts. Looked like bigfoot."
+  },
+  {
+    datetime: "1/2/2010",
+    city: "indianapolis",
+    state: "in",
+    country: "us",
+    shape: "donut",
+    durationMinutes: "13 minutes",
+    comments: "Large creature was sighted stumbling down Washington street. Creature resembled bigfoot. Police responded to the incident. "
+  },
+  {
+    datetime: "1/2/2010",
+    city: "indianapolis",
+    state: "in",
+    country: "us",
+    shape: "donut",
+    durationMinutes: "13 minutes",
+    comments: "A creature described as a “Wookie” like person was reported making loud noises and doing inappropriate things to a mailbox. Empty bottles of whisky were reported at the scene.  "
+  },
+
   {
     datetime: "1/1/2010",
     city: "bonita",

@@ -9,6 +9,24 @@ var data = [{
   },
   {
     datetime: "1/1/2010",
+    city: "indianapolis",
+    state: "in",
+    country: "us",
+    shape: "donut",
+    durationMinutes: "13 minutes",
+    comments: "Large creature was sighted banging on doors of a Dunkin Donuts. Looked like bigfoot."
+  },
+  {
+    datetime: "1/2/2010",
+    city: "indianapolis",
+    state: "in",
+    country: "us",
+    shape: "donut",
+    durationMinutes: "13 minutes",
+    comments: "Large creature was sighted stumbling down Washington street. Creature resembled bigfoot. Police responded to the incident. "
+  },
+  {
+    datetime: "1/1/2010",
     city: "bonita",
     state: "ca",
     country: "us",
