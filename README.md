@@ -1,6 +1,6 @@
 ![invasion.png](figures/invasion.png)
 # JavaScript Homework - JavaScript and DOM Manipulation
-<b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+
 ### Level 1: Automatic Table and Date Search (Required)
 
 * Create a basic HTML web page.
@@ -24,4 +24,4 @@
   5. `shape`
 
 # Sample page
-<b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+###<b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
