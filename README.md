@@ -24,4 +24,4 @@
   5. `shape`
 
 # Sample page
-###<b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+### <b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
