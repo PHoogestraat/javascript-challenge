@@ -1,8 +1,8 @@
 ![invasion.png](figures/invasion.png)
 # JavaScript and DOM Manipulation
 
-# web page
-### <b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+
+### <b><u>web page</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
 
 ### Goals: Create a HTML web page with automatic table and date search
 
