@@ -2,7 +2,7 @@
 # JavaScript and DOM Manipulation
 
 
-### <b><u>Web Page</u></b>  [UFO sightings]( https://phoogestraat.github.io/javascript-challenge//)
+### <b><u>Web Page:</u></b>  [UFO Sightings]( https://phoogestraat.github.io/javascript-challenge//)
 
 ### Goals: Create a HTML web page with automatic table and date search
 
