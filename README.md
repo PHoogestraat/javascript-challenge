@@ -1,7 +1,10 @@
 ![invasion.png](figures/invasion.png)
 # JavaScript and DOM Manipulation
 
-### Goals: Automatic Table and Date Search
+# web page
+### <b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+
+### Goals: Create a HTML web page with automatic table and date search
 
 * Create a basic HTML web page.
 
@@ -11,5 +14,4 @@
 
 * Employ a date form in a  HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
-# Sample page
-### <b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
+
