@@ -4,7 +4,7 @@
 
 ### <b><u>Web Page:</u></b>  [UFO Sightings]( https://phoogestraat.github.io/javascript-challenge//)
 
-### Goals: Create a HTML web page with automatic table and date search
+### Goal: Create a HTML web page with automatic table and date search
 
 * Create a basic HTML web page.
 
