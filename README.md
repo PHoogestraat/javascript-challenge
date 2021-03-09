@@ -1,27 +1,15 @@
 ![invasion.png](figures/invasion.png)
 # JavaScript and DOM Manipulation
 
-### Level 1: Automatic Table and Date Search
+### Goals: Automatic Table and Date Search
 
-* Basic HTML web page example
+* Create a basic HTML web page.
 
-* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+* Starting with a provided dataset in the form of an array of JavaScript objects, code was created that appends a table to a web page and then adds new rows of data for each item in the data set.
 
-  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
+* Specific column filiters created for `date/time`, `city`, `state`, `country`, `shape`, and `comment`.
 
-* Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
-
-### Level 2: Multiple Search Categories (Optional)
-
-* Complete all of Level 1 criteria.
-
-* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
-
-  1. `date/time`
-  2. `city`
-  3. `state`
-  4. `country`
-  5. `shape`
+* Employ a date form in a  HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
 
 # Sample page
 ### <b><u>Link:</u></b>  [Java Script Challenge]( https://phoogestraat.github.io/javascript-challenge//)
